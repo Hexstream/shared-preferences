@@ -11,4 +11,5 @@
            #:define-setting
            #:preferences-class
            #:standard-preferences
-           #:define-settings))
+           #:define-settings
+           #:define-defaults))
