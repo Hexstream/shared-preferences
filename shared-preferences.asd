@@ -9,7 +9,7 @@
   :depends-on ("trivial-garbage"
                "inheriting-readers")
 
-  :version "1.1"
+  :version "1.1.1"
   :serial cl:t
   :components ((:file "package")
                (:file "core")

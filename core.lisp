@@ -20,6 +20,9 @@
 (defvar *scope-to-preferences* (trivial-garbage:make-weak-hash-table :test 'eq :weakness :key))
 
 (defgeneric shared-prefs:preferencesp (object)
+  (:method (object)
+    (declare (ignore object))
+    nil)
   (:method ((default null))
     t)
   (:method ((preferences shared-prefs:preferences))
